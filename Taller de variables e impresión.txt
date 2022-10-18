@@ -1,0 +1,79 @@
+Parte 1
+
+Algoritmo tallerVariablesImpresion
+	Definir nombre Como Caracter;
+	Definir apellidos Como Caracter;
+	Escribir "Ingrese su nombre";
+	Leer nombre;
+	Escribir "Ingrese sus apellidos";
+	Leer apellidos;
+	Escribir nombre," ", apellidos;
+FinAlgoritmo
+
+Parte 2
+
+Algoritmo tallerVariablesImpresion
+	Definir nombre Como Caracter;
+	Definir apellidos Como Caracter;
+	Definir edad Como Entero;
+	Definir estatura Como Real;
+	Escribir "Ingrese su nombre";
+	Leer nombre;
+	Escribir "Ingrese sus apellidos";
+	Leer apellidos;
+	Escribir "Ingrese su edad";
+	Leer edad;
+	Escribir "Ingrese su estatura";
+	Leer estatura;
+	Escribir "Su nombre es " nombre," ",apellidos;
+	Escribir "su edad es " edad, " años";
+	Escribir "su estatura es " estatura, " metros";
+FinAlgoritmo
+
+Parte 3
+
+Algoritmo tallerVariablesImpresion
+	Definir nombre Como Caracter;
+	Definir apellidos Como Caracter;
+	Definir NombreMadre Como Caracter;
+	Definir NombrePadre Como Caracter;
+	Escribir "Ingrese su nombre";
+	Leer nombre;
+	Escribir "Ingrese sus apellidos";
+	Leer Apellido;
+	Escribir "Ingrese nombre completo de la Madre";
+	Leer NombreMadre
+	Escribir "Ingrese nombre completo del Padre";
+	Leer NombrePadre;
+	Escribir "Yo " nombre," ", apellido "Soy hijo de ", NombreMadre, " y ", NombrePadre;	
+FinAlgoritmo
+
+Parte 4
+
+Algoritmo tallerVariablesImpresion
+	Definir CiudadCapital Como Caracter;
+	Definir Pais Como Caracter;
+	Escribir "Ingrese el Nombre De La Ciudad";
+	Leer CiudadCapital;
+	Escribir "Ingrese El Nombre Del País";
+	Leer Pais;
+	Escribir "La Ciudad " CiudadCapital," Es la Capital De ",Pais;	
+FinAlgoritmo
+
+Parte 5
+
+Algoritmo tallerVariablesImpresion
+	Definir NombreMascota Como Caracter;
+	Definir EdadMascota Como Entero;
+	Definir TipoMascota Como Caracter;
+	Definir NombreCompleto Como Caracter;
+	Escribir "Ingrese el Nombre De Su Mascota";
+	Leer NombreMascota;
+	Escribir "Ingrese El Tipo De Mascota";
+	Leer TipoMascota;
+	Escribir  "Ingrese La Edad De La Mascota";
+	Leer EdadMascota;
+	Escribir "Ingrese su nombre completo";
+	Leer NombreCompleto;
+	Escribir NombreMascota, " es un ", TipoMascota, " El cual, tiene ", EdadMascota, " años de edad, y ", NombreCompleto, " es su dueño";	
+FinAlgoritmo
